@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.author       = { "Alok Jha" => "alok@getsimpl.com" }
   s.source = {:git => 'https://github.com/GetSimpl/simpl-zeroclick-ios-sdk.git',:tag => "v#{s.version}"}
-  s.ios.vendored_frameworks = "SimplZeroClick.framework"
+  s.vendored_frameworks = 'SimplZeroClick.framework'
+  s.preserve_paths = 'SimplZeroClick.framework'
 end
