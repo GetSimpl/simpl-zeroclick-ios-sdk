@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SimplZeroClick"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "SimplZeroClick iOS SDK."
   s.homepage     = "https://github.com/GetSimpl/simpl-zeroclick-ios-sdk"
   s.license = {:type => 'Commercial' , :file => 'License'}
